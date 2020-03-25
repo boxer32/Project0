@@ -32,7 +32,7 @@ void Project0AudioProcessorEditor::paint (Graphics& g)
 
     g.setColour (Colours::white);
     g.setFont (15.0f);
-    g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centred, 1);
+    g.drawFittedText ("MrArranger", getLocalBounds(), Justification::centred, 1);
 }
 
 void Project0AudioProcessorEditor::resized()
