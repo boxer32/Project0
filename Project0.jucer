@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="i3Ryrd" name="Project0" projectType="audioplug" jucerVersion="5.4.7">
+<JUCERPROJECT id="i3Ryrd" name="Project0" projectType="audioplug" jucerVersion="5.4.7"
+              pluginCharacteristicsValue="pluginIsSynth" companyName="project0"
+              pluginFormats="buildAU,buildStandalone,buildVST3">
   <MAINGROUP id="jF0TRr" name="Project0">
     <GROUP id="{64366531-2B70-09B9-A2DD-82F127210029}" name="Source">
       <FILE id="qkNkfE" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -32,7 +34,6 @@
         <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
@@ -51,7 +52,6 @@
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
-    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <LIVE_SETTINGS>
     <OSX/>
